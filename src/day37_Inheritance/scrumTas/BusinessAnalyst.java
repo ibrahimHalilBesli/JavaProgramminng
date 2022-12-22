@@ -1,0 +1,13 @@
+package day37_Inheritance.scrumTas;
+
+public class BusinessAnalyst extends Emloyee {
+
+
+    public BusinessAnalyst(String name, int age, char gender, int id, double salary, String companyName) {
+        super(name, age, gender, "Business Analyst", id, salary, companyName);
+    }
+    public void analyze(){
+        System.out.println(name+" is analyzing the documents");
+    }
+
+}
