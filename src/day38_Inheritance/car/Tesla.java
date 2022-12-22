@@ -10,4 +10,9 @@ public class Tesla extends Car{
 
         System.out.println(brand+" "+model+" in autopilot model");
     }
+
+    @Override
+    public void start() {
+        System.out.println("Say \" Start\" to Start" + brand + " " + model);
+    }
 }
