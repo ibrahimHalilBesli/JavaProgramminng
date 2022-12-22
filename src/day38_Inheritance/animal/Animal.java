@@ -1,4 +1,4 @@
-package day38_Overload.animal;
+package day38_Inheritance.animal;
 
 public class Animal {
 

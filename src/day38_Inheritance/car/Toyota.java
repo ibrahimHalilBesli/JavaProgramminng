@@ -1,4 +1,4 @@
-package day38_Overload.car;
+package day38_Inheritance.car;
 
 public class Toyota extends Car{
 

@@ -1,4 +1,4 @@
-package day38_Overload.browser;
+package day38_Inheritance.browser;
 
 public class Safari extends Browser{
 

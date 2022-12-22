@@ -1,8 +1,9 @@
-package day38_Overload.animal;
+package day38_Inheritance.animal;
 
-public class Dog extends Animal{
+public class Cat extends Animal{
 
-    public Dog(String name, String bread, int age, char gender, String size, String color) {
+
+    public Cat(String name, String bread, int age, char gender, String size, String color) {
         super(name, bread, age, gender, size, color);
     }
 

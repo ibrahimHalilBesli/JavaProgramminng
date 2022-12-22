@@ -1,4 +1,4 @@
-package day38_Overload.car;
+package day38_Inheritance.car;
 
 public class CarObject {
     public static void main(String[] args) {
