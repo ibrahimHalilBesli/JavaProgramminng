@@ -8,8 +8,13 @@ public class ParkingLot {
 
         Tesla tesla = new Tesla("Model X",2020,50000,12345);
 
+        toyota.start();
+        tesla.start();
+
+
         System.out.println(tesla);
-        System.out.println(toyota);
+        System.out.println(toyota
+        );
 
     }
 }
