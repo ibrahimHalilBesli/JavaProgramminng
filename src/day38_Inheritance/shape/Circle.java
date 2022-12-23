@@ -2,38 +2,38 @@ package day38_Inheritance.shape;
 
 public class Circle extends Shape{
 
-    public double ra;
+    public double radius;
     public static double pi =3.14;
 
     public double getRa() {
-        return ra;
+        return radius;
     }
 
-    public void setRa(double ra) {
-        this.ra = ra;
+    public void setRa(double radius) {
+        this.radius = radius;
     }
 
-    public Circle(String name, double ra) {
-        super(name);
-        setRa(ra);
+    public Circle( double radius) {
+        super("Circle");
+        setRa(radius);
 
     }
 
     @Override
     public double area() {
 
-        return pi*ra*ra;
+        return pi*radius
+                *radius;
     }
 
     @Override
     public double perimeter() {
-        return 2*pi*ra;
+        return 2*pi*radius;
     }
 
     public String toString() {
         return "Circle{" +
-                "r=" + ra +
-                ", name='" + name + '\'' +
+                "r=" + radius +
                 ", Area='" + area() + '\'' +
                 ", Perimeter='" + perimeter() + '\'' +
                 ", pi='" + pi + '\'' +

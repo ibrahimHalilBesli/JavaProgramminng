@@ -33,8 +33,8 @@ public class Rectangle extends Shape {
         this.w = w;
     }
 
-    public Rectangle(String name, double l, double w) {
-        super(name);
+    public Rectangle( double l, double w) {
+        super("Rectangle");
         setL(l);
         setW(w);
     }
