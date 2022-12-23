@@ -45,4 +45,14 @@ public class Shape {
                 ", perimeter='" + perimeter() + '\'' +
                 '}';
     }
+    /*
+	Shape:
+	variables:
+			name
+	Encapsulate the field
+	Add a constructor to set the filed
+	Methods:
+		area(){}
+		perimeter(){}
+ */
 }
