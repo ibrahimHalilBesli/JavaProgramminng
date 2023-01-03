@@ -7,6 +7,8 @@ public class ProtectedAccessModifier {
 
     static void method1(){
 
+
+
     }
 
     protected static void method2(){
